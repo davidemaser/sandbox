@@ -15,7 +15,7 @@ The gallery builder also supports lazy loading features. The jquery.lazyload.js 
 ###Initiating the function call
 
 The function call can be initiated from an html page (in the head or at before the final body tag) or from within the builder.js file itself. Use the following code to initiate call to the function.
-
+```sh
 <script>
 $(document).ready(function () {
     /**
@@ -29,7 +29,7 @@ $(document).ready(function () {
     });
 });
 </script>
-
+```
 Add the above code to the end of the builder.js file if you want to initiate the call from the js file itself (remove the <script></script> tags).
 
 ###Binding the function to a selector
