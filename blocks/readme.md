@@ -1,12 +1,13 @@
 #BlockMaker Usage
 
 Blockmaker is a jQuery plugin that lets you create a block based layout with data from a json file. Users are able to reorder blocks by dragging them. The script also uses local storage to memorize the position of the blocks and let users revert the block layout to the last state. To use blockmaker, add jQuery, jQuery ui and the blockmaker.js files to the head of your html page.
-
+```sh
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 <script src="assets/js/blockMaker.js"></script>
+```
 Call the blockmaker function by adding the following script to your page (preferably before the closing body tag)
-
+```sh
 <script>
 $(document).ready(function(){
     $(document).blockMaker({
@@ -14,7 +15,8 @@ $(document).ready(function(){
      });
 });
 </script>
->Blockmaker relies on an external json file to pull data into the blocks and complete the page display. Make sure you format your json file as below.
+```
+Blockmaker relies on an external json file to pull data into the blocks and complete the page display. Make sure you format your json file as below.
 
 {
   "1": "Product element",
