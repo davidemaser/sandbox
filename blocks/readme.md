@@ -17,7 +17,7 @@ $(document).ready(function(){
 </script>
 ```
 Blockmaker relies on an external json file to pull data into the blocks and complete the page display. Make sure you format your json file as below.
-
+```sh
 {
   "1": "Product element",
   "2": "Here would be another product",
@@ -26,10 +26,11 @@ Blockmaker relies on an external json file to pull data into the blocks and comp
   "5": "Oh heck let's keep on going",
   "6": "Shall we"
 }
+```
 >Your json data can also contain an array. If we wanted to include an array instead of “product element” on line 1, you would format your json as follows.
-
+```sh
   "1": ["Product element","Product element","Product element"],
-
+```
 >Blockmaker has a number of configurable options that you can use to display exactly what you want. See below for a list of all the options (settings) and their usage.
 
 - count : This determines the number of blocks to create. This is a requied element as there is no default value for this option. 
