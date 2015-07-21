@@ -39,10 +39,10 @@ You can bind the gallery builder function to any page element that is in the bod
 $("#demo").galleryBuilder({
         dir: 'assets/img/'
     });
-    ```
+```
 This way, the gallery will be created inside that div. 
 
-You can play with different selectors to get the gallery to display exactly as you wish.
+>You can play with different selectors to get the gallery to display exactly as you wish.
 
 ###Function Options
 
@@ -62,7 +62,7 @@ $("#demo").galleryBuilder({
      modal: false
 });
 ```
-We've already identified the dir option. We'll define the other options below. 
+>We've already identified the dir option. We'll define the other options below. 
 
 - prefix – this defines the prefix of the images you want to include in the gallery. This allows you to filter certain images within the dir folder. If you don't define this option, the script will take all images from within the dir folder
 - columns – this defines the number of columns you want to display. 4 columns is the default but you can play around with this number to tweak the display to your requirements. Default is 4
