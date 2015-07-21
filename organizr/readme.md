@@ -114,7 +114,7 @@ parentChild : if we are creating multiple instances of a tag, the parentChild at
 ```
 “elementContent” is another top level node and contains 6 children. Since “elementContent” is an array, we can place as many sub-items as we want in the object. In the example above there are two child nodes.
 
->>NOTE : Don't forget the comma (line 1) since this is a new node.
+>NOTE : Don't forget the comma (line 1) since this is a new node.
 
 ###Deconstruction
 
@@ -124,39 +124,7 @@ parentChild : if we are creating multiple instances of a tag, the parentChild at
 - content : this is the actual content that will be placed into the element you have defined. The content can be html. 
 - bgColor : defines the hex or rgba value of an elements background. 
 - font: defines the font for the specified element.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Plugin Options
+##Plugin Options
 
 The plugin allows you to define a number of options or settings in your function call. A list of these options and their usage is below. 
 
@@ -169,16 +137,15 @@ $(document).ready(function(){
         dataAsync:true
     });
 });
-
-
-parent : Defines the parent element of the page. If you want your organizr instance to be built inside a specific element, you would define the parent here (i.e. #wrapper). Default = body
-margin : Defines the body margins of the page. Deprecated V 1.1
-padding : Defines the bod padding of the page. Deprecated V 1.1
-dataType : Defines the type of data to be received by the ajax call. For now the plugin only supports json formatted data.
-jsonData : Defines the path to the external json file. Required
-dataCache : Defines whether the data received from the json file is to be cached by the browser. Default is false. 
-dataAsync : Defines whether the data is to be load asynchronously. Default is true.
-jsFiles : Defines whether external javascript files are to be loaded into the page. This option allows you to use other functionalities and features.  Default is false.
-jsFileRoot : Defines the root directory where the external js files reside. Only needs to be defined if jsFiles is set to true.
-cssFiles : Like jsFiles, this options defines whether external CSS files are to be loaded into the page. This allows you to style the page and any extra components to your liking.  Default is false
-cssFileRoot : Defines the root directory where the external css files reside. Only needs to be defined if cssFiles is set to true.
+```
+- parent : Defines the parent element of the page. If you want your organizr instance to be built inside a specific element, you would define the parent here (i.e. #wrapper). Default = body
+- margin : Defines the body margins of the page. Deprecated V 1.1
+- padding : Defines the bod padding of the page. Deprecated V 1.1
+- dataType : Defines the type of data to be received by the ajax call. For now the plugin only supports json formatted data.
+- jsonData : Defines the path to the external json file. Required
+- dataCache : Defines whether the data received from the json file is to be cached by the browser. Default is false. 
+- dataAsync : Defines whether the data is to be load asynchronously. Default is true.
+- jsFiles : Defines whether external javascript files are to be loaded into the page. This option allows you to use other functionalities and features.  Default is false.
+- jsFileRoot : Defines the root directory where the external js files reside. Only needs to be defined if jsFiles is set to true.
+- cssFiles : Like jsFiles, this options defines whether external CSS files are to be loaded into the page. This allows you to style the page and any extra components to your liking.  Default is false
+- cssFileRoot : Defines the root directory where the external css files reside. Only needs to be defined if cssFiles is set to true.
