@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Filter</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/filter_ajax.min.js"></script>
+    <link href="assets/css/global.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+</head>
+<body>
+<header></header>
+<div id="container">
+
+
+<footer></footer>
+</div>
+<script>
+    $(document).ready(function(){
+        $(this).filterBlocks({
+            parent:'#container',
+            filterMethod: 'buttons', //choice is menu or buttons
+            allowQsFilter: true,
+            /**
+             * If allowQsFilter is set to true, you ca add the querystring "?filter="
+             * or "&filter=" to allow the filter method to be changed from the url
+             * The accepted values are menu or buttons (?filter=menu)
+             */
+            buttons: {
+                buttonTop:'All'
+            },
+            menu: {
+              menuTop:'All'
+            },
+            items: {
+                itemWidth:'150',
+                itemHeight:'150'
+            },
+            animation: {
+                method:'show',
+                speed:500,
+                easing:'easeInOutBack',
+                easingPlugin:true,
+                easingPluginPath:'assets/js/jquery.easing.1.3.js'
+            },
+            jsonData : 'assets/ajax/data2.json'
+        });
+    })
+</script>
+</body>
+</html>

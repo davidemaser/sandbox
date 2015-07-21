@@ -1,0 +1,113 @@
+{"element":[
+  {
+    "tag":"section",
+    "id":"main",
+    "class":"",
+    "count":1,
+    "parent":"",
+    "parentMap":"",
+    "parentChild":0
+  },
+  {
+    "tag":"div",
+    "id":"content",
+    "class":"flex",
+    "count":1,
+    "parent":"main",
+    "parentMap":"id",
+    "parentChild":0
+  },
+  {
+    "tag":"div",
+    "id":"subcontent",
+    "class":"flex",
+    "count":1,
+    "parent":"main",
+    "parentMap":"id",
+    "parentChild":0
+  },
+  {
+    "tag":"nav",
+    "id":"sec",
+    "class":"wire",
+    "count":5,
+    "parent":"flex",
+    "parentMap":"class",
+    "parentChild":2
+  },
+  {
+    "tag":"footer",
+    "id":"pageFooter",
+    "class":"",
+    "count":1,
+    "parent":"",
+    "parentMap":"",
+    "parentChild":0
+  },
+  {
+    "tag":"div",
+    "id":"",
+    "class":"cog",
+    "count":3,
+    "parent":"wire",
+    "parentMap":"class",
+    "parentChild":3
+  }
+],
+  "elementContent":[
+    {
+      "parent":"content",
+      "parentType":"id",
+      "parentCount":1,
+      "content":"<b>Hello there</b>",
+      "bgColor":"#efefef",
+      "font":""
+    },
+    {
+      "parent":"content",
+      "parentType":"id",
+      "parentCount":2,
+      "content":"<p class='me'>How's it going</p>",
+      "bgColor":"#fff",
+      "font":""
+    },
+    {
+      "parent":"wire",
+      "parentType":"class",
+      "parentCount":4,
+      "content":"<p>And this is inside a div </p>",
+      "bgColor":"",
+      "font":""
+    },
+    {
+      "parent":"pageFooter",
+      "parentType":"id",
+      "parentCount":1,
+      "content":"<p>And this is inside a footer </p>",
+      "bgColor":"",
+      "font":""
+    }
+  ],
+"jsFiles":[
+  {
+    "lib":"modernizr.js"
+},
+  {
+    "lib":"jquery.js"
+  },
+  {
+    "lib":"bootstrap.js"
+  }
+],
+  "cssFiles":[
+    {
+      "lib":"modernizr.css"
+    },
+    {
+      "lib":"jquery.css"
+    },
+    {
+      "lib":"bootstrap.css"
+    }
+  ]
+}

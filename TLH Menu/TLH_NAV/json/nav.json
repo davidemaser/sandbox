@@ -1,0 +1,363 @@
+{
+  "navitems": [
+    {
+      "name_en": "Men's","name_fr": "Hommes","href": "mens","level1": [
+        {
+          "name_en": "Jackets and vests","name_fr": "Manteaux &amp; Vestes","href": "jackets","visible":true,"level2": [
+          {"name_en": "Insulated","name_fr": "Isol&eacute;s","href": "insulated","visible":true},
+          {"name_en": "One-piece Suits","name_fr": "Ensembles une pièce","href": "one-piece","visible":true},
+          {"name_en": "Waterproof-Breathable Shells","name_fr": "Imper-respirants","href": "shells","visible":true},
+          {"name_en": "Softshells &amp; Windbreakers","name_fr": "Softshells &amp; coupe-vent","href": "softshells","visible":true},
+          {"name_en": "Ready to Wear","name_fr": "Prêt-à-porter","href": "ready-to-wear","visible":true},
+          {"name_en": "Vests","name_fr": "Sans manches","href": "vests","visible":true}
+          ]
+        },
+        {
+          "name_en": "Tops Sweaters & Dress Shirts","name_fr": "Hauts, chandails &amp; chemises","href": "tops","visible":true,"level2": [
+          {"name_en": "Merino Wool","name_fr": "Laine mérinos","href": "merino","visible":true},
+          {"name_en": "Polos","name_fr": "Polos","href": "polos","visible":true},
+          {"name_en": "Fleece","name_fr": "Laines polaires","href": "fleece","visible":true},
+          {"name_en": "Dress Shirts","name_fr": "Chemises","href": "shirts","visible":true},
+          {"name_en": "Performance","name_fr": "Performances","href": "performance","visible":true},
+          {"name_en": "Hooded Sweatshirts","name_fr": "Chandail à capuchon","href": "hooded","visible":true},
+          {"name_en": "Synthetics","name_fr": "Synthétiques","href": "synthetics","visible":true},
+          {"name_en": "T-Shirts","name_fr": "T-Shirts","href": "tees","visible":true}
+          ]
+        },
+      {
+        "name_en": "Pants &amp; more","name_fr": "Pantalons &amp; plus","href": "pants","visible":true,"level2": [
+
+          {"name_en": "Capris","name_fr": "Capris","href": "capris","visible":true},
+          {"name_en": "Insulated Pants","name_fr": "Pantalons isolés","href": "insulated-pants","visible":true},
+          {"name_en": "Shorts","name_fr": "Shorts","href": "shorts","visible":true},
+          {"name_en": "Leggings &amp; Bike Shorts","name_fr": "Leggings &amp; cuissards","href": "leggings","visible":true},
+          {"name_en": "Light &amp; Athletic Pants","name_fr": "Pantalons légers &amp; athlétiques","href": "athletic-pants","visible":true},
+          {"name_en": "Waterproof Pants","name_fr": "Pantalons imper-respirants","href": "waterproof-pants","visible":true},
+          {"name_en": "Ready to Wear Pants","name_fr": "Pantalons prêt-à-porter","href": "ready-to-wear-pants","visible":true},
+          {"name_en": "Softshell &amp; Windbreaker Pants","name_fr": "Pantalons softshells &amp; coupe vent","href": "softshell-pants","visible":true}
+        ]
+      },
+      {
+          "name_en": "Accessories","name_fr": "Accessoires","href": "accessories","visible":true,"level2": [
+            {"name_en": "Hats &amp; Tuques","name_fr": "Tuques &amp; chapeaux hiver","href": "#","visible":true},
+            {"name_en": "Sunglasses","name_fr": "Lunettes de soleil","href": "#","visible":true},
+            {"name_en": "Scarves &amp; Neck Warmers","name_fr": "Foulards &amp; cache-cou","href": "#","visible":true},
+            {"name_en": "Gloves","name_fr": "Gants","href": "#","visible":true},
+            {"name_en": "Mitts","name_fr": "Mitaines","href": "#","visible":true},
+            {"name_en": "Arm Warmers","name_fr": "Manchettes","href": "#","visible":true},
+            {"name_en": "Ski Goggles","name_fr": "Lunettes de ski","href": "#","visible":true},
+            {"name_en": "Gaiters","name_fr": "Guêtres","href": "#","visible":true},
+            {"name_en": "Belts","name_fr": "Ceintures","href": "#","visible":true},
+            {"name_en": "Caps &amp; Sun Hats","name_fr": "Casquettes &amp; chapeaux été","href": "#","visible":true}
+          ]
+        },
+      {
+        "name_en": "Socks","name_fr": "Bas &amp; chaussettes","href": "socks","visible":true,"level2": [
+            {"name_en": "Ski &amp; Snowboard","name_fr": "Ski &amp; Snowboard","href": "#","visible":true},
+            {"name_en": "Expedition","name_fr": "Expédition","href": "#","visible":true},
+            {"name_en": "Running","name_fr": "Course à pieds","href": "#","visible":true},
+            {"name_en": "Multisports","name_fr": "Multisports","href": "#","visible":true},
+            {"name_en": "Hiking","name_fr": "Randonnée","href": "#","visible":true},
+            {"name_en": "Liners","name_fr": "Sous-bas","href": "#","visible":true},
+            {"name_en": "Ready to Wear","name_fr": "Prêt-à-porter","href": "#","visible":true}
+          ]
+        },{
+        "name_en": "Base Layers &amp; Underwear","name_fr": "Sous-vêtements &amp; couches de base","href": "base","visible":true,"level2": [
+            {"name_en": "Tops","name_fr": "Hauts","href": "#","visible":true},
+            {"name_en": "Bottoms","name_fr": "Bas","href": "#","visible":true}
+          ]
+
+
+      }
+      ]
+    },
+    {
+      "name_en": "Women's","name_fr": "Femmes","href": "womens","level1": [
+      {
+        "name_en": "Jackets and vests","name_fr": "Manteaux &amp; Vestes","href": "jackets","visible":true,"level2": [
+        {"name_en": "Insulated","name_fr": "Isol&eacute;s","href": "#","visible":true},
+        {"name_en": "One-piece Suits","name_fr": "Ensembles une pièce","href": "#","visible":true},
+        {"name_en": "Waterproof-Breathable Shells","name_fr": "Imper-respirants","href": "#","visible":true},
+        {"name_en": "Softshells &amp; Windbreakers","name_fr": "Softshells &amp; coupe-vent","href": "#","visible":true},
+        {"name_en": "Ready to Wear","name_fr": "Prêt-à-porter","href": "#","visible":true},
+        {"name_en": "Vests","name_fr": "Sans manches","href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Tops Sweaters & Dress Shirts","name_fr": "Hauts, chandails &amp; chemises","href": "tops","visible":true,"level2": [
+        {"name_en": "Merino Wool","name_fr": "Laine mérinos","href": "merino","visible":true},
+        {"name_en": "Polos","name_fr": "Polos","href": "polos","visible":true},
+        {"name_en": "Fleece","name_fr": "Laines polaires","href": "fleece","visible":true},
+        {"name_en": "Dress Shirts","name_fr": "Chemises","href": "shirts","visible":true},
+        {"name_en": "Performance","name_fr": "Performances","href": "performance","visible":true},
+        {"name_en": "Hooded Sweatshirts","name_fr": "Chandail à capuchon","href": "hooded","visible":true},
+        {"name_en": "Synthetics","name_fr": "Synthétiques","href": "synthetics","visible":true},
+        {"name_en": "T-Shirts","name_fr": "T-Shirts","href": "tees","visible":true}
+      ]
+      },
+      {
+        "name_en": "Pants &amp; more","name_fr": "Pantalons &amp; plus","href": "pants","visible":true,"level2": [
+
+        {"name_en": "Capris","name_fr": "Capris","href": "capris","visible":true},
+        {"name_en": "Insulated Pants","name_fr": "Pantalons isolés","href": "insulated-pants","visible":true},
+        {"name_en": "Shorts","name_fr": "Shorts","href": "shorts","visible":true},
+        {"name_en": "Leggings &amp; Bike Shorts","name_fr": "Leggings &amp; cuissards","href": "leggings","visible":true},
+        {"name_en": "Light &amp; Athletic Pants","name_fr": "Pantalons légers &amp; athlétiques","href": "athletic-pants","visible":true},
+        {"name_en": "Waterproof Pants","name_fr": "Pantalons imper-respirants","href": "waterproof-pants","visible":true},
+        {"name_en": "Ready to Wear Pants","name_fr": "Pantalons prêt-à-porter","href": "ready-to-wear-pants","visible":true},
+        {"name_en": "Softshell &amp; Windbreaker Pants","name_fr": "Pantalons softshells &amp; coupe vent","href": "softshell-pants","visible":true}
+      ]
+      },
+      {
+        "name_en": "Accessories","name_fr": "Accessoires","href": "accessories","visible":true,"level2": [
+        {"name_en": "Hats &amp; Tuques","name_fr": "Tuques &amp; chapeaux hiver","href": "#","visible":true},
+        {"name_en": "Sunglasses","name_fr": "Lunettes de soleil","href": "#","visible":true},
+        {"name_en": "Scarves &amp; Neck Warmers","name_fr": "Foulards &amp; cache-cou","href": "#","visible":true},
+        {"name_en": "Gloves","name_fr": "Gants","href": "#","visible":true},
+        {"name_en": "Mitts","name_fr": "Mitaines","href": "#","visible":true},
+        {"name_en": "Arm Warmers","name_fr": "Manchettes","href": "#","visible":true},
+        {"name_en": "Ski Goggles","name_fr": "Lunettes de ski","href": "#","visible":true},
+        {"name_en": "Gaiters","name_fr": "Guêtres","href": "#","visible":true},
+        {"name_en": "Belts","name_fr": "Ceintures","href": "#","visible":true},
+        {"name_en": "Caps &amp; Sun Hats","name_fr": "Casquettes &amp; chapeaux été","href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Socks","name_fr": "Bas &amp; chaussettes","href": "socks","visible":true,"level2": [
+        {"name_en": "Ski &amp; Snowboard","name_fr": "Ski &amp; Snowboard","href": "#","visible":true},
+        {"name_en": "Expedition","name_fr": "Expédition","href": "#","visible":true},
+        {"name_en": "Running","name_fr": "Course à pieds","href": "#","visible":true},
+        {"name_en": "Multisports","name_fr": "Multisports","href": "#","visible":true},
+        {"name_en": "Hiking","name_fr": "Randonnée","href": "#","visible":true},
+        {"name_en": "Liners","name_fr": "Sous-bas","href": "#","visible":true},
+        {"name_en": "Ready to Wear","name_fr": "Prêt-à-porter","href": "#","visible":true}
+      ]
+      },{
+        "name_en": "Base Layers &amp; Underwear","name_fr": "Sous-vêtements &amp; couches de base","href": "base","visible":true,"level2": [
+          {"name_en": "Tops","name_fr": "Hauts","href": "#","visible":true},
+          {"name_en": "Bottoms","name_fr": "Bas","href": "#","visible":true}
+        ]
+
+
+      }
+    ]
+    },{
+      "name_en": "Youth","name_fr": "Enfants","href": "youth","visible":true,"level1": [
+        {
+          "name_en": "Infant &amp; Toddlers Boys (0 to 4 yrs old)","name_fr": "Bébés &amp; tout-petits garçons (0 à 4 ans)","href": "#","visible":true,"level2": [
+          {"name_en": "Jackets &amp; Vests","name_fr": "Manteaux &amp; vestes", "href": "#","visible":true},
+          {"name_en": "Pants &amp; More","name_fr": "Pantalons &amp; plus", "href": "#","visible":true},
+          {"name_en": "One-Piece Suits","name_fr": "Ensembles une pièce", "href": "#","visible":true},
+          {"name_en": "Tops, Sweaters and Dress Shirts","name_fr": "Hauts, chandails &amp; chemises", "href": "#","visible":true},
+          {"name_en": "Footwear","name_fr": "Chaussures", "href": "#","visible":true},
+          {"name_en": "Underwear &amp; Baselayers","name_fr": "Sous-vêtements &amp; couches de base", "href": "#","visible":true},
+          {"name_en": "Accessories","name_fr": "Accessoires", "href": "#","visible":true}
+        ]
+        },
+        {
+          "name_en": "Infant &amp; Toddlers Girls (0 to 4 yrs old)","name_fr": "Bébés &amp; tout-petits filles (0 à 4 ans)","href": "#","visible":true,"level2": [
+          {"name_en": "Pants &amp; More","name_fr": "Pantalons &amp; plus", "href": "#","visible":true},
+          {"name_en": "One-Piece Suits","name_fr": "Ensembles une pièce", "href": "#","visible":true},
+          {"name_en": "Tops, Sweaters and Dress Shirts","name_fr": "Hauts, chandails &amp; chemises", "href": "#","visible":true},
+          {"name_en": "Footwear","name_fr": "Chaussures", "href": "#","visible":true},
+          {"name_en": "Underwear &amp; Baselayers","name_fr": "Sous-vêtements &amp; couches de base", "href": "#","visible":true},
+          {"name_en": "Accessories","name_fr": "Accessoires", "href": "#","visible":true},
+          {"name_en": "Jackets &amp; Vests","name_fr": "Manteaux &amp; vestes", "href": "#","visible":true}
+        ]
+        },
+        {
+          "name_en": "Boys","name_fr": "Garçons","href": "#","visible":true,"level2": [
+          {"name_en": "Jackets &amp; Vests","name_fr": "Manteaux &amp; vestes", "href": "#","visible":true},
+          {"name_en": "Pants &amp; More","name_fr": "Pantalons &amp; plus", "href": "#","visible":true},
+          {"name_en": "Tops, Sweaters and Dress Shirts","name_fr": "Hauts, chandails &amp; chemises", "href": "#","visible":true},
+          {"name_en": "Footwear","name_fr": "Chaussures", "href": "#","visible":true},
+          {"name_en": "Underwear &amp; Baselayers","name_fr": "Sous-vêtements &amp; couches de base", "href": "#","visible":true},
+          {"name_en": "Accessories","name_fr": "Accessoires", "href": "#","visible":true}
+        ]
+        },
+        {
+          "name_en": "Girls","name_fr": "Filles","href": "#","visible":true,"level2": [
+          {"name_en": "Jackets &amp; Vests","name_fr": "Manteaux &amp; vestes", "href": "#","visible":true},
+          {"name_en": "Pants &amp; More","name_fr": "Pantalons &amp; plus", "href": "#","visible":true},
+          {"name_en": "Tops, Sweaters and Dress Shirts","name_fr": "Hauts, chandails &amp; chemises", "href": "#","visible":true},
+          {"name_en": "Footwear","name_fr": "Chaussures", "href": "#","visible":true},
+          {"name_en": "Underwear &amp; Baselayers","name_fr": "Sous-vêtements &amp; couches de base", "href": "#","visible":true},
+          {"name_en": "Accessories","name_fr": "Accessoires", "href": "#","visible":true}
+        ]
+        },
+        {
+          "name_en": "Equipment","name_fr": "Équipements","href": "#","visible":true,"level2": [
+          {"name_en": "Backpacks","name_fr": "Sacs à dos", "href": "#","visible":true}
+        ]
+        }
+        ]
+        }
+    ,
+    {
+      "name_en": "Footwear","name_fr": "Chaussures","href": "footwear","visible":true,"level1": [
+      {
+        "name_en": "Men's Footwear","name_fr": "Chaussures homme","href": "#","visible":true,"level2": [
+        {"name_en": "Insulated Boots","name_fr": "Bottes isolées","href": "#","visible":true},
+        {"name_en": "Insulated shoes","name_fr": "Souliers Isolés","href": "#","visible":true},
+        {"name_en": "Sandals &amp; Water Shoes","name_fr": "Sandales &amp; souliers d'eau","href": "#","visible":true},
+        {"name_en": "Slippers &amp; Mules","name_fr": "Pantoufles &amp; mules","href": "#","visible":true},
+        {"name_en": "Running Shoes","name_fr": "Souliers de course à pied","href": "#","visible":true},
+        {"name_en": "Waterproof Boots","name_fr": "Bottes imperméables","href": "#","visible":true},
+        {"name_en": "Hiking Shoes","name_fr": "Souliers de randonnée","href": "#","visible":true},
+        {"name_en": "Hiking Boots","name_fr": "Bottes de randonnée","href": "#","visible":true},
+        {"name_en": "Casual","name_fr": "Tout-aller","href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Kids Footwear","name_fr": "Chaussures Enfants","href": "#","visible":true,"level2": [
+        {"name_en": "Girls","name_fr": "Filles","href": "#","visible":true},
+        {"name_en": "Boys","name_fr": "Garçons","href": "#","visible":true},
+        {"name_en": "Boys Infant &amp; Toddlers (0 to 4 yrs old)","name_fr": "Garçons Infant &amp; Toddlers (0 to 4 yrs old)","href": "#","visible":true},
+        {"name_en": "Girls Infant &amp; Toddlers (0 to 4 yrs old)","name_fr": "Filles Infant &amp; Toddlers (0 to 4 yrs old)","href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Women's Footwear","name_fr": "Chaussures femme","href": "#","visible":true,"level2": [
+        {"name_en": "Insulated Boots","name_fr": "Bottes isolées","href": "#","visible":true},
+        {"name_en": "Insulated shoes","name_fr": "Souliers Isolés","href": "#","visible":true},
+        {"name_en": "Sandals &amp; Water Shoes","name_fr": "Sandales &amp; souliers d'eau","href": "#","visible":true},
+        {"name_en": "Slippers &amp; Mules","name_fr": "Pantoufles &amp; mules","href": "#","visible":true},
+        {"name_en": "Running Shoes","name_fr": "Souliers de course à pied","href": "#","visible":true},
+        {"name_en": "Hiking Shoes","name_fr": "Souliers de randonnée","href": "#","visible":true},
+        {"name_en": "Hiking Boots","name_fr": "Bottes de randonnée","href": "#","visible":true},
+        {"name_en": "Casual","name_fr": "Tout-aller","href": "#","visible":true },
+        {"name_en": "Waterproof Boots","name_fr": "Bottes imperméables","href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Care &amp; Accessories","name_fr": "Traitements &amp; accessoires","href": "#","visible":true,"level2": [
+        {"name_en": "Insoles","name_fr": "Semelles","href": "#","visible":true},
+        {"name_en": "Waterproofing","name_fr": "Imperméabilisants","href": "#","visible":true},
+        {"name_en": "Leather Treatment","name_fr": "Traitement du cuir","href": "#","visible":true},
+        {"name_en": "Laces","name_fr": "Lacets","href": "#","visible":true},
+        {"name_en": "Crampons","name_fr": "Crampons","href": "#","visible":true}
+      ]
+      }
+      ]
+      },
+    {
+      "name_en": "Gear & Equipment","name_fr": "Équipements","href": "#","visible":true,"level1": [
+      {
+        "name_en": "Snowshoes","name_fr": "Raquettes","href": "#","visible":true,"level2": [
+        {"name_en": "Women's Snowshoes","name_fr": "Raquettes femmes", "href": "#","visible":true},
+        {"name_en": "Men's Snowshoes","name_fr": "Raquettes hommes", "href": "#","visible":true},
+        {"name_en": "Snowshoes Accessories","name_fr": "Accessoires raquettes", "href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Glasses","name_fr": "Lunettes","href": "#","visible":true,"level2": [
+        {"name_en": "Sunglasses","name_fr": "Lunettes de soleil", "href": "#","visible":true},
+        {"name_en": "Ski Goggles","name_fr": "Lunettes de ski", "href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Sleeping Bags &amp; Mattresses","name_fr": "Sacs de couchage &amp; matelas (de sol)","href": "#","visible":true,"level2": [
+        {"name_en": "Men's Sleeping Bags (-20°C to -40°C)","name_fr": "Sacs de couchage hommes (-20°C à -40°C)", "href": "#","visible":true},
+        {"name_en": "Women's Sleeping Bags (-20°C to -40°C)","name_fr": "Sacs de couchage femmes (-20°C à -40°C)", "href": "#","visible":true},
+        {"name_en": "Men's Sleeping Bags (0°C and +)","name_fr": "Sacs de couchage hommes (0°C &amp; +)", "href": "#","visible":true},
+        {"name_en": "Liners","name_fr": "Draps d'auberge &amp; sacs d'appoint", "href": "#","visible":true},
+        {"name_en": "Women's Sleeping Bags (0°C and +)","name_fr": "Sacs de couchage femmes (0°C &amp; +)", "href": "#","visible":true},
+        {"name_en": "Men's Sleeping Bags (0°C to -20°C)","name_fr": "Sacs de couchage hommes (0°C à -20°C)", "href": "#","visible":true},
+        {"name_en": "Women's Sleeping Bags (0°C to -20°C)","name_fr": "Sacs de couchage femmes (0°C à -20°C)", "href": "#","visible":true},
+        {"name_en": "Mattresses","name_fr": "Matelas de sol", "href": "#","visible":true},
+        {"name_en": "Pillows","name_fr": "Oreillers", "href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Travel","name_fr": "Voyage","href": "#","visible":true,"level2": [
+        {"name_en": "Travel Accessories","name_fr": "Accessoires de voyage", "href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Backpacks &amp; Travel Bags","name_fr": "Sacs à dos &amp; Travel Bags","href": "#","visible":true,"level2": [
+        {"name_en": "Men's Daypacks","name_fr":"Sacs de jour hommes", "href": "#","visible":true},
+        {"name_en": "Women's Daypacks","name_fr":"Sacs de jour femmes", "href": "#","visible":true},
+        {"name_en": "Compression Packs","name_fr":"Sacs de compression", "href": "#","visible":true},
+        {"name_en": "Child Carrier","name_fr":"Porte-bébé", "href": "#","visible":true},
+        {"name_en": "Men's Hiking Packs","name_fr":"Sacs de randonnée hommes", "href": "#","visible":true},
+        {"name_en": "Women's Hiking Packs","name_fr":"Sacs de randonnée femmes", "href": "#","visible":true},
+        {"name_en": "Duffel Bags","name_fr":"Sacs Duffel", "href": "#","visible":true},
+        {"name_en": "Travel Packs &amp; Bags","name_fr":"Sacs &amp; valises de voyage", "href": "#","visible":true},
+        {"name_en": "Urban &amp; Messenger Bags","name_fr":"Sacs urbains &amp; messagers", "href": "#","visible":true},
+        {"name_en": "Hydration Packs","name_fr":"Sacs d'hydratation", "href": "#","visible":true},
+        {"name_en": "Accessories","name_fr":"Accessoires", "href": "#","visible":true},
+        {"name_en": "Raincovers","name_fr":"Couvre-sacs", "href": "#","visible":true},
+        {"name_en": "Waterproof Bags","name_fr":"Sacs étanches", "href": "#","visible":true},
+        {"name_en": "Waistpacks","name_fr":"Sacs de taille", "href": "#","visible":true},
+        {"name_en": "Youth Backpacks","name_fr":"Sacs à dos enfants","href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Camp Kitchen","name_fr":"Cuisine","href": "#","visible":true,"level2": [
+        {"name_en": "Stoves &amp; Fuel","name_fr":"Réchauds &amp; carburant", "href": "#","visible":true},
+        {"name_en": "Pots &amp; Dishes","name_fr":"Gamelles &amp; vaisselle", "href": "#","visible":true},
+        {"name_en": "Water Treatment","name_fr":"Traitement de l'eau", "href": "#","visible":true},
+        {"name_en": "Bottles","name_fr":"Bouteilles", "href": "#","visible":true},
+        {"name_en": "Food","name_fr":"Nourriture", "href": "#","visible":true},
+        {"name_en": "Others","name_fr":"Autres","href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Lighting","name_fr":"Éclairage","href": "#","visible":true,"level2": [
+        {"name_en": "Headlamps","name_fr":"Lampes frontales", "href": "#","visible":true},
+        {"name_en": "Lanterns","name_fr":"Lanternes", "href": "#","visible":true},
+        {"name_en": "Flashlights","name_fr":"Lampes de poche", "href": "#","visible":true},
+        {"name_en": "Cycling Lights","name_fr":"Lampes vélos","href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Watches","name_fr":"Montres","href": "#","visible":true,"level2": [
+        {"name_en": "GPS","name_fr":"GPS", "href": "#","visible":true},
+        {"name_en": "Hiking","name_fr":"Randonnée", "href": "#","visible":true},
+        {"name_en": "Training","name_fr":"Entraînement", "href": "#","visible":true},
+        {"name_en": "Women's","name_fr":"Femmes", "href": "#","visible":true},
+        {"name_en": "Men's","name_fr":"Hommes", "href": "#","visible":true},
+        {"name_en": "Accessories","name_fr":"Accessoires", "href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Accessories","name_fr": "Accessoires","href": "#","visible":true,"level2": [
+        {"name_en": "Gear Care","name_fr": "Gear Care", "href": "#","visible":true},
+        {"name_en": "Compasses","name_fr": "Compasses", "href": "#","visible":true},
+        {"name_en": "Miscellaneous","name_fr": "Miscellaneous", "href": "#","visible":true}
+        ]
+      },{
+        "name_en": "Walking Poles","name_fr":"Bâtons de marche", "href": "#","visible":true,"level2": [
+        {"name_en": "Foldable 2 sections","name_fr":"2 sections", "href": "#","visible":true},
+        {"name_en": "Foldable 3 sections","name_fr":"3 sections", "href": "#","visible":true},
+        {"name_en": "Hiking","name_fr":"Randonnée", "href": "#","visible":true},
+        {"name_en": "Winter","name_fr":"Hiver", "href": "#","visible":true},
+        {"name_en": "Ultralight","name_fr":"Ultralégers", "href": "#","visible":true},
+        {"name_en": "Ultracompact","name_fr":"Ultracompacts", "href": "#","visible":true},
+        {"name_en": "Accessories","name_fr":"Accessoires", "href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Knives &amp; Tools","name_fr":"Couteaux &amp; outils","href": "#","visible":true,"level2": [
+        {"name_en": "Single Blade","name_fr":"1 lame", "href": "#","visible":true},
+        {"name_en": "Multi-Tools","name_fr":"Multi-outils", "href": "#","visible":true},
+        {"name_en": "Accessories","name_fr":"Accessoires", "href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Tents","name_fr":"Tentes","href": "#","visible":true,"level2": [
+        {"name_en": "4-season Tents","name_fr":"Tentes 4 saisons", "href": "#","visible":true},
+        {"name_en": "3-season Tents","name_fr":"Tentes 3 saisons", "href": "#","visible":true},
+        {"name_en": "Tarps","name_fr":"Bâches", "href": "#","visible":true}
+      ]
+      },
+      {
+        "name_en": "Camcorders","name_fr":"Caméscopes","href": "#","visible":true,"level2": [
+        {"name_en": "Camcorders","name_fr":"Caméscopes", "href": "#","visible":true},
+        {"name_en": "Camcorder Accessories","name_fr":"Accessoires pour caméscopes", "href": "#","visible":true}
+      ]
+      }
+      ]
+    }
+  ]
+}

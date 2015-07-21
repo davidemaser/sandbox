@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function buildNav(lang)
+        {
+            $(document).ready(function(){
+                var a = 'data.name_en',
+                        b = 'data1.name_en',
+                        c = 'data2.name_en';
+                $.getJSON('json/nav.json',function(data)
+                        {
+                            if(lang == 'en') {
+                                //top level loop
+                                $.each(data.navitems, function (i, data) {
+                                    var div_data = '<li><a href="' + data.href + '" class="sub-menu">' + data.name_en + '&nbsp;<span class="icon-down-arrow"></span></a>';
+                                    div_data += '<div class="dropdown animated go-quick fadeIn"><div class="dropdown_links clearfix menu_line_element" id="menu_main">';
+                                    $.each(data.level1, function (i, data1) {
+                                        //child level loop
+                                        div_data += '<ul><li class="nav-parent"><a href="' + data.href + '/' + data1.href + '" class="sub-menu top-el">' + data1.name_en + '</a><ul>';
+                                        $.each(data1.level2, function (i, data2) {
+                                            if (data2.visible == false) {
+                                                var hideClass = ' no-view';
+                                            } else {
+                                                hideClass = '';
+                                            }
+                                            //grand child level loop
+                                            div_data += '<li class="sub-menu' + hideClass + '"><a href="' + data.href + '/' + data1.href + '+' + data2.href + '">' + data2.name_en + '</a></li>';
+
+                                        });
+                                        div_data += '</ul></li></ul>';
+                                    });
+                                    div_data += '</div></div></li>';
+                                    $(div_data).appendTo('ul.menu');
+                                });
+                            }else if(lang == 'fr') {
+                                //top level loop
+                                $.each(data.navitems, function (i, data) {
+                                    var div_data = '<li><a href="' + data.href + '" class="sub-menu">' + data.name_fr + '&nbsp;<span class="icon-down-arrow"></span></a>';
+                                    div_data += '<div class="dropdown animated go-quick fadeIn"><div class="dropdown_links clearfix menu_line_element" id="menu_main">';
+                                    $.each(data.level1, function (i, data1) {
+                                        //child level loop
+                                        div_data += '<ul><li class="nav-parent"><a href="' + data.href + '/' + data1.href + '" class="sub-menu top-el">' + data1.name_fr + '</a><ul>';
+                                        $.each(data1.level2, function (i, data2) {
+                                            if (data2.visible == false) {
+                                                var hideClass = ' no-view';
+                                            } else {
+                                                hideClass = '';
+                                            }
+                                            //grand child level loop
+                                            div_data += '<li class="sub-menu' + hideClass + '"><a href="' + data.href + '/' + data1.href + '+' + data2.href + '">' + data2.name_fr + '</a></li>';
+
+                                        });
+                                        div_data += '</ul></li></ul>';
+                                    });
+                                    div_data += '</div></div></li>';
+                                    $(div_data).appendTo('ul.menu:not(.right)');
+                                });
+                            }
+                        }
+                );
+                return false;
+            });
+        }
+        buildNav('en');
+    </script>
+<style type="text/css">
+    .no-view{
+        display:none;
+    }
+</style>
+
+
+</head>
+<body>
+<ul class="menu"></ul>
+</body>
+</html>

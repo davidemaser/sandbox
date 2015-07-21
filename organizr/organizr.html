@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assets/js/organizr.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function(){
+        $(this).organizr({
+            jsonData:'assets/ajax/bones.json',
+            jsFiles: false,
+            dataAsync:true
+        });
+    });
+</script>
+</body>
+</html>

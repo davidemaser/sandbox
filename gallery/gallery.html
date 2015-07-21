@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.0">
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="viewport" content="target-densitydpi=device-dpi" />
+    <title>Image Gallery Plugin</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assets/js/builder.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(this).asyncLoad({
+                async: false,
+                url:"assets/css/bootstrap.min.css",
+                type:"css"
+            });
+        })
+    </script>
+
+</head>
+<body>
+<div id="demo"></div>
+<script>
+    $(document).ready(function () {
+        /**
+         * bind function call to whatever page element you want.
+         * The gallery will be created within that element.
+         * In this example, the gallery is created in an element
+         * with id "demo"
+         */
+        $("#demo").galleryBuilder({
+            dir: 'assets/img/',
+            prefix: 'coat_',
+            columns: 4,
+            extension: '.jpg',
+            responsive: true,
+            shadow: false,
+            lazy: true,
+            randomize: false,
+            limit: 4,
+            total: 10,
+            modal: false
+        });
+    });
+</script>
+</body>
+</html>

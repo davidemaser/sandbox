@@ -1,0 +1,374 @@
+{
+  "navitems": [
+    {
+      "name": "Hommes","href": "/collections/mens","level1": [
+        {
+          "name": "Manteaux &amp; Vestes","href": "jackets","level2": [
+          {"name": "Isol&eacute;s","href": "#"},
+          {"name": "Ensembles une pièce","href": "#"},
+          {"name": "Imper-respirants","href": "#"},
+          {"name": "Softshells &amp; coupe-vent","href": "#"},
+          {"name": "Prêt-à-porter","href": "#"},
+          {"name": "Sans manches","href": "#"}
+          ]
+        },
+        {
+          "name": "Hauts, chandails &amp; chemises","href": "Hauts","level2": [
+          {"name": "Laine mérinos","href": "#"},
+          {"name": "Polos","href": "#"},
+          {"name": "Laines polaires","href": "#"},
+          {"name": "Chemises","href": "#"},
+          {"name": "Performances","href": "#"},
+          {"name": "Chandail à capuchon","href": "#"},
+          {"name": "Synthétiques","href": "#"},
+          {"name": "T-Shirts","href": "#"}
+          ]
+        },
+      {
+        "name": "Pantalons &amp; plus","href": "#","level2": [
+
+          {"name": "Capris","href": "#"},
+          {"name": "Pantalons isolés","href": "#"},
+          {"name": "Shorts","href": "#"},
+          {"name": "Leggings &amp; cuissards","href": "#"},
+          {"name": "Pantalons légers &amp; athlétiques","href": "#"},
+          {"name": "Pantalons imper-respirants","href": "#"},
+          {"name": "Pantalons prêt-à-porter","href": "#"},
+          {"name": "Pantalons softshells &amp; coupe vent","href": "#"}
+        ]
+      },
+      {
+          "name": "Accessoires","href": "#","level2": [
+            {"name": "Tuques &amp; chapeaux hiver","href": "#"},
+            {"name": "Lunettes de soleil","href": "#"},
+            {"name": "Foulards &amp; cache-cou","href": "#"},
+            {"name": "Gants","href": "#"},
+            {"name": "Mitaines","href": "#"},
+            {"name": "Manchettes","href": "#"},
+            {"name": "Lunettes de ski","href": "#"},
+            {"name": "Guêtres","href": "#"},
+            {"name": "Ceintures","href": "#"},
+            {"name": "Casquettes &amp; chapeaux été","href": "#"}
+          ]
+        },
+      {
+        "name": "Bas &amp; chaussettes","href": "#","level2": [
+            {"name": "Ski &amp; Snowboard","href": "#"},
+            {"name": "Expédition","href": "#"},
+            {"name": "Course à pieds","href": "#"},
+            {"name": "Multisports","href": "#"},
+            {"name": "Randonnée","href": "#"},
+            {"name": "Sous-bas","href": "#"},
+            {"name": "Prêt-à-porter","href": "#"}
+          ]
+        },{
+        "name": "Sous-vêtements &amp; couches de base","href": "#","level2": [
+            {"name": "Hauts","href": "#"},
+            {"name": "Bas","href": "#"}
+          ]
+
+
+      }
+      ]
+    },
+    {
+      "name": "Femmes","href": "/collections/womens","level1": [
+      {
+        "name": "Manteaux &amp; Vestes","href": "jackets","level2": [
+        {"name": "Isol&eacute;s","href": "#"},
+        {"name": "Ensembles une pièce","href": "#"},
+        {"name": "Imper-respirants","href": "#"},
+        {"name": "Softshells &amp; coupe-vent","href": "#"},
+        {"name": "Prêt-à-porter","href": "#"},
+        {"name": "Sans manches","href": "#"}
+      ]
+      },
+      {
+        "name": "Hauts, chandails &amp; chemises","href": "Hauts","level2": [
+        {"name": "Laine mérinos","href": "#"},
+        {"name": "Polos","href": "#"},
+        {"name": "Laines polaires","href": "#"},
+        {"name": "Chemises","href": "#"},
+        {"name": "Performances","href": "#"},
+        {"name": "Chandail à capuchon","href": "#"},
+        {"name": "Synthétiques","href": "#"},
+        {"name": "T-Shirts","href": "#"}
+      ]
+      },
+      {
+        "name": "Pantalons &amp; plus","href": "#","level2": [
+
+        {"name": "Capris","href": "#"},
+        {"name": "Pantalons isolés","href": "#"},
+        {"name": "Shorts","href": "#"},
+        {"name": "Leggings &amp; cuissards","href": "#"},
+        {"name": "Pantalons légers &amp; athlétiques","href": "#"},
+        {"name": "Pantalons imper-respirants","href": "#"},
+        {"name": "Pantalons prêt-à-porter","href": "#"},
+        {"name": "Pantalons softshells &amp; coupe vent","href": "#"}
+      ]
+      },
+      {
+        "name": "Accessoires","href": "#","level2": [
+        {"name": "Tuques &amp; chapeaux hiver","href": "#"},
+        {"name": "Lunettes de soleil","href": "#"},
+        {"name": "Foulards &amp; cache-cou","href": "#"},
+        {"name": "Gants","href": "#"},
+        {"name": "Mitaines","href": "#"},
+        {"name": "Manchettes","href": "#"},
+        {"name": "Lunettes de ski","href": "#"},
+        {"name": "Guêtres","href": "#"},
+        {"name": "Ceintures","href": "#"},
+        {"name": "Casquettes &amp; chapeaux été","href": "#"}
+      ]
+      },
+      {
+        "name": "Bas &amp; chaussettes","href": "#","level2": [
+        {"name": "Ski &amp; Snowboard","href": "#"},
+        {"name": "Expédition","href": "#"},
+        {"name": "Course à pieds","href": "#"},
+        {"name": "Multisports","href": "#"},
+        {"name": "Randonnée","href": "#"},
+        {"name": "Sous-bas","href": "#"},
+        {"name": "Prêt-à-porter","href": "#"}
+      ]
+      },{
+        "name": "Sous-vêtements &amp; couches de base","href": "#","level2": [
+          {"name": "Hauts","href": "#"},
+          {"name": "Bas","href": "#"}
+        ]
+
+
+      }
+    ]
+    },{
+      "name": "Enfants","href": "#","level1": [
+        {
+          "name": "Bébés &amp; tout-petits garçons (0 à 4 ans)","href": "#","level2": [
+          {"name": "Manteaux &amp; vestes", "href": "#"},
+          {"name": "Pantalons &amp; plus", "href": "#"},
+          {"name": "Ensembles une pièce", "href": "#"},
+          {"name": "Hauts, chandails &amp; chemises", "href": "#"},
+          {"name": "Chaussures", "href": "#"},
+          {"name": "Sous-vêtements &amp; couches de base", "href": "#"},
+          {"name": "Accessoires", "href": "#"}
+        ]
+        },
+        {
+          "name": "Bébés &amp; tout-petits filles (0 à 4 ans)","href": "#","level2": [
+          {"name": "Pantalons &amp; plus", "href": "#"},
+          {"name": "Ensembles une pièce", "href": "#"},
+          {"name": "Hauts, chandails &amp; chemises", "href": "#"},
+          {"name": "Chaussures", "href": "#"},
+          {"name": "Sous-vêtements &amp; couches de base", "href": "#"},
+          {"name": "Accessoires", "href": "#"},
+          {"name": "Manteaux &amp; vestes", "href": "#"}
+        ]
+        },
+        {
+          "name": "Garçons","href": "#","level2": [
+          {"name": "Manteaux &amp; vestes", "href": "#"},
+          {"name": "Pantalons &amp; plus", "href": "#"},
+          {"name": "Hauts, chandails &amp; chemises", "href": "#"},
+          {"name": "Chaussures", "href": "#"},
+          {"name": "Sous-vêtements &amp; couches de base", "href": "#"},
+          {"name": "Accessoires", "href": "#"}
+        ]
+        },
+        {
+          "name": "Filles","href": "#","level2": [
+          {"name": "Manteaux &amp; vestes", "href": "#"},
+          {"name": "Pantalons &amp; plus", "href": "#"},
+          {"name": "Hauts, chandails &amp; chemises", "href": "#"},
+          {"name": "Chaussures", "href": "#"},
+          {"name": "Sous-vêtements &amp; couches de base", "href": "#"},
+          {"name": "Accessoires", "href": "#"}
+        ]
+        },
+        {
+          "name": "Équipements","href": "#","level2": [
+          {"name": "Sacs à dos", "href": "#"}
+        ]
+        }
+        ]
+        }
+    ,
+    {
+      "name": "Chaussures","href": "#","level1": [
+      {
+        "name": "Chaussures homme","href": "#","level2": [
+        {"name": "Bottes isolées","href": "#"},
+        {"name": "Souliers Isolés","href": "#"},
+        {"name": "Sandales &amp; souliers d'eau","href": "#"},
+        {"name": "Pantoufles &amp; mules","href": "#"},
+        {"name": "Souliers de course à pied","href": "#"},
+        {"name": "Bottes imperméables","href": "#"},
+        {"name": "Souliers de randonnée","href": "#"},
+        {"name": "Bottes de randonnée","href": "#"},
+        {"name": "Tout-aller","href": "#"}
+      ]
+      },
+      {
+        "name": "Chaussures Enfants","href": "#","level2": [
+        {"name": "Filles","href": "#"},
+        {"name": "Garçons","href": "#"},
+        {"name": "Garçons Infant &amp; Toddlers (0 to 4 yrs old)","href": "#"},
+        {"name": "Filles Infant &amp; Toddlers (0 to 4 yrs old)","href": "#"}
+      ]
+      },
+      {
+        "name": "Chaussures femme","href": "#","level2": [
+        {"name": "Bottes isolées","href": "#"},
+        {"name": "Souliers Isolés","href": "#"},
+        {"name": "Sandales &amp; souliers d'eau","href": "#"},
+        {"name": "Pantoufles &amp; mules","href": "#"},
+        {"name": "Souliers de course à pied","href": "#"},
+        {"name": "Souliers de randonnée","href": "#"},
+        {"name": "Bottes de randonnée","href": "#"},
+        {"name": "Tout-aller","href": "#" },
+        {"name": "Bottes imperméables","href": "#"}
+      ]
+      },
+      {
+        "name": "Traitements &amp; accessoires","href": "#","level2": [
+        {"name": "Semelles","href": "#"},
+        {"name": "Imperméabilisants","href": "#"},
+        {"name": "Traitement du cuir","href": "#"},
+        {"name": "Lacets","href": "#"},
+        {"name": "Crampons","href": "#"}
+      ]
+      }
+      ]
+      },
+    {
+      "name": "Équipements","href": "#","level1": [
+      {
+        "name": "Raquettes","href": "#","level2": [
+        {"name": "Raquettes femmes", "href": "#"},
+        {"name": "Raquettes hommes", "href": "#"},
+        {"name": "Accessoires raquettes", "href": "#"}
+      ]
+      },
+      {
+        "name": "Lunettes","href": "#","level2": [
+        {"name": "Lunettes de soleil", "href": "#"},
+        {"name": "Lunettes de ski", "href": "#"}
+      ]
+      },
+      {
+        "name": "Sacs de couchage &amp; matelas (de sol)","href": "#","level2": [
+        {"name": "Sacs de couchage hommes (-20°C à -40°C)", "href": "#"},
+        {"name": "Sacs de couchage femmes (-20°C à -40°C)", "href": "#"},
+        {"name": "Sacs de couchage hommes (0°C &amp; +)", "href": "#"},
+        {"name": "Draps d'auberge &amp; sacs d'appoint", "href": "#"},
+        {"name": "Sacs de couchage femmes (0°C &amp; +)", "href": "#"},
+        {"name": "Sacs de couchage hommes (0°C à -20°C)", "href": "#"},
+        {"name": "Sacs de couchage femmes (0°C à -20°C)", "href": "#"},
+        {"name": "Matelas de sol", "href": "#"},
+        {"name": "Oreillers", "href": "#"}
+      ]
+      },
+      {
+        "name": "Voyage","href": "#","level2": [
+        {"name": "Accessoires de voyage", "href": "#"}
+      ]
+      },
+      {
+        "name": "Sacs à dos &amp; Travel Bags","href": "#","level2": [
+        {"name":"Sacs de jour hommes", "href": "#"},
+        {"name":"Sacs de jour femmes", "href": "#"},
+        {"name":"Sacs de compression", "href": "#"},
+        {"name":"Porte-bébé", "href": "#"},
+        {"name":"Sacs de randonnée hommes", "href": "#"},
+        {"name":"Sacs de randonnée femmes", "href": "#"},
+        {"name":"Sacs Duffel", "href": "#"},
+        {"name":"Sacs &amp; valises de voyage", "href": "#"},
+        {"name":"Sacs urbains &amp; messagers", "href": "#"},
+        {"name":"Sacs d'hydratation", "href": "#"},
+        {"name":"Accessoires", "href": "#"},
+        {"name":"Couvre-sacs", "href": "#"},
+        {"name":"Sacs étanches", "href": "#"},
+        {"name":"Sacs de taille", "href": "#"},
+        {"name":"Sacs à dos enfants", "href": "#"}
+      ]
+      },
+      {
+        "name":"Cuisine","href": "#","level2": [
+        {"name":"Réchauds &amp; carburant", "href": "#"},
+        {"name":"Gamelles &amp; vaisselle", "href": "#"},
+        {"name":"Traitement de l'eau", "href": "#"},
+        {"name":"Bouteilles", "href": "#"},
+        {"name":"Nourriture", "href": "#"},
+        {"name":"Autres", "href": "#"}
+      ]
+      },
+      {
+        "name":"Éclairage","href": "#","level2": [
+        {"name":"Lampes frontales", "href": "#"},
+        {"name":"Lanternes", "href": "#"},
+        {"name":"Lampes de poche", "href": "#"},
+        {"name":"Lampes vélos", "href": "#"}
+      ]
+      },
+      {
+        "name":"Montres","href": "#","level2": [
+        {"name":"GPS", "href": "#"},
+        {"name":"Randonnée", "href": "#"},
+        {"name":"Entraînement", "href": "#"},
+        {"name":"Femmes", "href": "#"},
+        {"name":"Hommes", "href": "#"},
+        {"name":"Accessoires", "href": "#"}
+      ]
+      },
+      {
+        "name": "Accessoires",
+        "href": "#",
+        "level2": [
+          {
+            "name": "Gear Care",
+            "href": "#"
+          },
+          {
+            "name": "Compasses",
+            "href": "#"
+          },
+          {
+            "name": "Miscellaneous",
+            "href": "#"
+          }
+        ]
+      },{
+        "name":"Bâtons de marche","href": "#","level2": [
+          {"name":"2 sections", "href": "#"},
+          {"name":"3 sections", "href": "#"},
+          {"name":"Randonnée", "href": "#"},
+          {"name":"Hiver", "href": "#"},
+          {"name":"Ultralégers", "href": "#"},
+          {"name":"Ultracompacts", "href": "#"},
+          {"name":"Accessoires", "href": "#"}
+      ]
+      },
+      {
+        "name":"Couteaux &amp; outils","href": "#","level2": [
+        {"name":"1 lame", "href": "#"},
+        {"name":"Multi-outils", "href": "#"},
+        {"name":"Accessoires", "href": "#"}
+      ]
+      },
+      {
+        "name":"Tentes","href": "#","level2": [
+        {"name":"Tentes 4 saisons", "href": "#"},
+        {"name":"Tentes 3 saisons", "href": "#"},
+        {"name":"Bâches", "href": "#"}
+      ]
+      },
+      {
+        "name":"Caméscopes","href": "#","level2": [
+        {"name":"Caméscopes", "href": "#"},
+        {"name":"Accessoires pour caméscopes", "href": "#"}
+      ]
+      }
+      ]
+    }
+  ]
+}

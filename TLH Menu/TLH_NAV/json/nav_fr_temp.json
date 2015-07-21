@@ -1,0 +1,135 @@
+{
+  "navitems": [
+     
+    {
+      "name": "Équipements": [
+      {
+        "name": "Raquettes": [
+        "name": "Raquettes femmes",
+        "name": "Raquettes hommes",
+        "name": "Accessoires raquettes"
+      ]
+      },
+      {
+        "name": "Lunettes": [
+        "name": "Lunettes de soleil",
+        "name": "Lunettes de ski"
+      ]
+      },
+      {
+        "name": "Sacs de couchage &amp; matelas (de sol)": [
+        "name": "Sacs de couchage hommes (-20°C à -40°C)",
+        "name": "Sacs de couchage femmes (-20°C à -40°C)",
+        "name": "Sacs de couchage hommes (0°C &amp; +)",
+        "name": "Draps d'auberge &amp; sacs d'appoint",
+        "name": "Sacs de couchage femmes (0°C &amp; +)",
+        "name": "Sacs de couchage hommes (0°C à -20°C)",
+        "name": "Sacs de couchage femmes (0°C à -20°C)",
+        "name": "Matelas de sol",
+        "name": "Oreillers"
+      ]
+      },
+      {
+        "name": "Voyage": [
+        "name": "Accessoires de voyage"
+      ]
+      },
+      {
+        "name": "Sacs à dos &amp; Travel Bags": [
+        "name":"Sacs de jour hommes",
+        "name":"Sacs de jour femmes",
+        "name":"Sacs de compression",
+        "name":"Porte-bébé",
+        "name":"Sacs de randonnée hommes",
+        "name":"Sacs de randonnée femmes",
+        "name":"Sacs Duffel",
+        "name":"Sacs &amp; valises de voyage",
+        "name":"Sacs urbains &amp; messagers",
+        "name":"Sacs d'hydratation",
+        "name":"Accessoires",
+        "name":"Couvre-sacs",
+        "name":"Sacs étanches",
+        "name":"Sacs de taille",
+        "name":"Sacs à dos enfants"
+      ]
+      },
+      {
+        "name":"Cuisine": [
+        "name":"Réchauds &amp; carburant",
+        "name":"Gamelles &amp; vaisselle",
+        "name":"Traitement de l'eau",
+        "name":"Bouteilles",
+        "name":"Nourriture",
+        "name":"Autres"
+      ]
+      },
+      {
+        "name":"Éclairage": [
+        "name":"Lampes frontales",
+        "name":"Lanternes",
+        "name":"Lampes de poche",
+        "name":"Lampes vélos"
+      ]
+      },
+      {
+        "name":"Montres": [
+        "name":"GPS",
+        "name":"Randonnée",
+        "name":"Entraînement",
+        "name":"Femmes",
+        "name":"Hommes",
+        "name":"Accessoires"
+      ]
+      },
+      {
+        "name": "Accessoires",
+       ,
+        "level2": [
+          {
+            "name": "Gear Care",
+           
+          },
+          {
+            "name": "Compasses",
+           
+          },
+          {
+            "name": "Miscellaneous",
+           
+          }
+        ]
+      },{
+        "name":"Bâtons de marche": [
+          "name":"2 sections",
+          "name":"3 sections",
+          "name":"Randonnée",
+          "name":"Hiver",
+          "name":"Ultralégers",
+          "name":"Ultracompacts",
+          "name":"Accessoires"
+      ]
+      },
+      {
+        "name":"Couteaux &amp; outils": [
+        "name":"1 lame",
+        "name":"Multi-outils",
+        "name":"Accessoires"
+      ]
+      },
+      {
+        "name":"Tentes": [
+        "name":"Tentes 4 saisons",
+        "name":"Tentes 3 saisons",
+        "name":"Bâches"
+      ]
+      },
+      {
+        "name":"Caméscopes": [
+        "name":"Caméscopes",
+        "name":"Accessoires pour caméscopes"
+      ]
+      }
+      ]
+    }
+  ]
+}

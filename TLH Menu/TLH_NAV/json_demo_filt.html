@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function getURIfilter(){
+            var a = window.location.pathname;
+            var b = a.slice( 1 );
+            var c = b.split('/');
+            var col = c[0];
+            var el1 = c[1];
+            var el2 = c[2];
+            var el3 = c[2].split('+');
+            var arrayLength = el3.length;
+            for (var i = 0; i < arrayLength; i++) {
+                if(el3[i].indexOf("brands_") > -1){
+                    var br = el3[i].replace('brands_','');
+                    console.log(br);
+                }
+            }
+            var cLink = '<a href="/'+col+'/'+el1+'/'+el2+'"></a>';
+            console.log(col+' : '+el1+' : '+el3+' : '+cLink);
+        }
+        function buildFilter(lang,level,parent)
+        {
+            if(level !== null) {
+                if (level == 'top') {
+                    var a = '',
+                            b = ' garbage',
+                            c = ' garbage',
+                            d = 'level-one-items';
+                } else if (level == 'second') {
+                    var a = ' garbage',
+                            b = '',
+                            c = ' garbage',
+                            d = 'level-two-items';
+                } else if (level == 'third') {
+                    var a = ' garbage',
+                            b = ' garbage',
+                            c = '',
+                            d = 'level-three-items';
+                } else {
+                    var a = '',
+                            b = '',
+                            c = '',
+                            d = '';
+                }
+            }else {
+                var a = '',
+                        b = '',
+                        c = '',
+                        d = '';
+            }
+            $(document).ready(function(){
+                $.getJSON('json/nav.json',function(data)
+                        {
+                            if(lang == 'en') {
+                                //top level loop
+                                $.each(data.navitems, function (i, data) {
+                                        var div_data = '<div class="level-one-items '+ data.name_en.replace(/'/g, '').toLowerCase()  + a + '"><a href="' + data.href + '" class="sub-menu">' + data.name_en + '</a></div>';
+                                    $.each(data.level1, function (i, data1) {
+                                        //child level loop
+                                        div_data += '<div class="level-two-items '+ data.name_en.replace(/'/g, '').toLowerCase() + b +'"><a href="' + data.href + '/' + data1.href + '" class="sub-menu top-el">' + data1.name_en + '</a></div>';
+                                        $.each(data1.level2, function (i, data2) {
+                                            if (data2.visible == false) {
+                                                var hideClass = ' no-view';
+                                            } else {
+                                                hideClass = '';
+                                            }
+                                            //grand child level loop
+                                            div_data += '<div class="level-three-items ' + data.name_en.replace(/'/g, '').toLowerCase() + c +hideClass+'"><a href="' + data.href + '/' + data1.href + '+' + data2.href + '">' + data2.name_en + '</a></div>';
+
+                                        });
+                                    });
+                                    $(div_data).appendTo('div.menu:not(.right)');
+                                    $('.garbage').remove();
+                                    if(parent !== null) {
+                                        $('.' + d + ':not(.' + parent + ')').remove();
+                                    }
+                                });
+                            }else if(lang == 'fr') {
+                                //top level loop
+                                $.each(data.navitems, function (i, data) {
+                                    var div_data = '<div class="level-one-items '+ data.name_en.replace(/'/g, '').toLowerCase()  + a + '"><a href="' + data.href + '" class="sub-menu">' + data.name_fr + '</a></div>';
+                                    $.each(data.level1, function (i, data1) {
+                                        //child level loop
+                                        div_data += '<div class="level-two-items '+ data.name_en.replace(/'/g, '').toLowerCase() + b +'"><a href="' + data.href + '/' + data1.href + '" class="sub-menu top-el">' + data1.name_fr + '</a></div>';
+                                        $.each(data1.level2, function (i, data2) {
+                                            if (data2.visible == false) {
+                                                var hideClass = ' no-view';
+                                            } else {
+                                                hideClass = '';
+                                            }
+                                            //grand child level loop
+                                            div_data += '<div class="level-three-items ' + data.name_en.replace(/'/g, '').toLowerCase() + c +hideClass+'"><a href="' + data.href + '/' + data1.href + '+' + data2.href + '">' + data2.name_fr + '</a></div>';
+
+                                        });
+                                    });
+                                    $(div_data).appendTo('div.menu:not(.right)');
+                                    $('.garbage').remove();
+                                    if(parent !== null) {
+                                        $('.' + d + ':not(.' + parent + ')').remove();
+                                    }
+                                });
+                            }
+                        }
+                );
+                return false;
+            });
+        }
+        buildFilter('en','second','mens');
+    </script>
+<style type="text/css">
+    .no-view{
+        display:none;
+    }
+</style>
+
+
+</head>
+<body>
+<div class="menu"></ul>
+</body>
+</html>

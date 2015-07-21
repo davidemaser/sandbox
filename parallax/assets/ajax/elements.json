@@ -1,0 +1,38 @@
+{"image":[
+  {
+    "src":"assets/images/arcterys.png",
+    "width":2000,
+    "height":1125,
+    "id":"home",
+    "type":"background",
+    "tag":"article",
+    "text":"This is the home section",
+    "textSize":30,
+    "textColor":"#fff",
+    "speed": 10
+  },
+  {
+    "src":"assets/images/TNF_Wallpaper.jpg",
+    "width":1920,
+    "height":1080,
+    "id":"about",
+    "type":"background",
+    "tag":"article",
+    "text":"This is the about section",
+    "textSize":30,
+    "textColor":"#fff",
+    "speed": 4
+  },
+  {
+    "src":"assets/images/arcterys.png",
+    "width":2000,
+    "height":1125,
+    "id":"more",
+    "type":"background",
+    "tag":"article",
+    "text":"This is the more section",
+    "textSize":30,
+    "textColor":"#fff",
+    "speed": 10
+  }
+]}

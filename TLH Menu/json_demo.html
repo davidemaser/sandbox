@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function()
+        {
+            $(document).ready(function()
+            {
+                $.getJSON('nav_en.json',function(data)
+                        {
+                            //top level loop
+                            $.each(data.navitems, function(i,data)
+                            {
+                                var build_href = data.href;
+                                var div_data = '<li><a href="'+build_href+'" class="sub-menu">'+data.name+'&nbsp;<span class="icon-down-arrow"></span></a>';
+                                div_data += '<div class="dropdown animated go-quick fadeIn"><div class="dropdown_links clearfix menu_line_element" id="menu_main">';
+                                $.each(data.level1, function(i,data)
+                                {
+                                    //child level loop
+                                    build_href += '/'+data.href;
+                                    div_data += '<ul><li class="nav-parent"><a href="'+build_href+'" class="sub-menu top-el">'+data.name+'</a><ul>';
+                                    $.each(data.level2, function(i,data)
+                                    {
+                                        //grand child level loop
+                                        div_data += '<li class="sub-menu"><a href="'+build_href+'/'+data.href+'">'+data.name+'</a></li>';
+
+                                    });
+                                    div_data += '</ul></li></ul>';
+                                });
+                                div_data += '</div></div></li>';
+                                $(div_data).appendTo('#tlh_nav');
+                                //on shopify site change #tlh_nav to ul.menu
+                            });
+                        }
+                );
+                return false;
+            });
+        });
+    </script>
+
+
+
+</head>
+<body>
+<div id="tlh_nav"></div>
+</body>
+</html>

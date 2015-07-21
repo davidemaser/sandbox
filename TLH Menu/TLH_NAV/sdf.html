@@ -1,0 +1,44 @@
+<div class="sidebar four columns">
+
+    <div class="filtered top-level"></div>
+    <div class="filtered second-level"><div class="second-level-reset"><a href="">See all</a></div></div>
+    <div class="filtered third-level"><div class="third-level-reset"><a href="">See all</a></div></div>
+    <script type="text/javascript">
+        function indexNav(){
+            $.getJSON('dfdfsdf',function(data)
+            {
+                var div_data = '<div id="filter-options">';
+                $.each(data.navitems, function (i, data) {
+                    div_data += '<div class="filtermenu level-one-items '+data.href.replace(/'/g, '').toLowerCase()+ '"><a href="' +topLink+ data.href + '" class="sub-menu">' + data.name_en + '</a></div>';
+
+                });
+                div_data += '</div>';
+                $(div_data).appendTo('#mm-0');
+            });
+        }
+    </script>
+
+
+
+    <style type="text/css">
+        .no-view{
+            display:none;
+        }
+    </style>
+    <div class="filtered fourth-brands">
+        <div class="fourth-level-reset"><a href="">See all</a></div>
+        {% for tags in collection.tags %}
+        {% if tags contains 'brands_' %}
+        <div class="filtermenu level-four-items">
+            {% assign t1 = tags | replace: "brands_", "" %}
+            {% assign t2 = t1 | replace: "-", " " %}
+            <script>
+                buildLink('{{tags}}','{{t2 | capitalize}}')
+            </script>
+
+        </div>
+        {% endif %}
+        {% endfor %}
+
+    </div>
+</div>

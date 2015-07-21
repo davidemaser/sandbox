@@ -1,0 +1,40 @@
+{"entry":[
+  {
+    "label":"Men's",
+    "children":5,
+    "color": "#E3E3E3",
+    "display": [{
+      "id":1,
+      "image":"img/src/assets/",
+      "category":12,
+      "reduction":0
+    },{
+      "id":2,
+      "image":"img/src/assets/",
+      "category":12,
+      "reduction":0
+    }]
+  },
+  {
+    "label":"Women's",
+    "children":12,
+    "color": "#2DE311",
+    "display": [{
+      "id":1,
+      "image":"img/src/assets/",
+      "category":8,
+      "reduction":5
+    }]
+  },
+  {
+    "label":"Children's",
+    "children":5,
+    "color": "red",
+    "display": [{
+      "id":1,
+      "image":"img/src/assets/",
+      "category":4,
+      "reduction":10
+    }]
+  }
+]}

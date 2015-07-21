@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function getURIfilter(){
+            var a = window.location.pathname;
+            var b = a.slice( 1 );
+            var c = b.split('/');
+            var col = c[0];
+            var el1 = c[1];
+            var el2 = c[2];
+            var el3 = c[2].split('+');
+            var arrayLength = el3.length;
+            for (var i = 0; i < arrayLength; i++) {
+                if(el3[i].indexOf("brands_") > -1){
+                    var br = el3[i].replace('brands_','');
+                    console.log(br);
+                }
+            }
+            var cLink = '<a href="/'+col+'/'+el1+'/'+el2+'"></a>';
+            console.log(col+' : '+el1+' : '+el3+' : '+cLink);
+        }
+
+        function buildFilter(parent,child,level)
+        {
+            if (level == 0){
+                var insDiv = '.filtered.top-level';
+            }else if (level == 1){
+                insDiv = '.filtered.second-level';
+            }else if (level == 2){
+                insDiv = '.filtered.third-level';
+            }
+            if(child == ''){
+                child = null;
+            }
+
+            $(document).ready(function(){
+                $.getJSON('json/nav.json',function(data)
+                        {
+                                //top level loop
+                                $.each(data.navitems, function (i, data) {
+                                        var div_data = '<div class="filtermenu level-one-items '+data.href.replace(/'/g, '').toLowerCase()+ '"><a href="' + data.href + '" class="sub-menu">' + data.name_en + '</a></div>';
+                                    $.each(data.level1, function (i, data1) {
+                                        //child level loop
+                                        div_data += '<div class="filtermenu level-two-items '+ data.href.replace(/'/g, '').toLowerCase() +'"><a href="' + data.href + '/' + data1.href + '" class="sub-menu top-el">' + data1.name_en + '</a></div>';
+                                        $.each(data1.level2, function (i, data2) {
+                                            if (data2.visible == false) {
+                                                var hideClass = ' no-view';
+                                            } else {
+                                                hideClass = '';
+                                            }
+                                            //grand child level loop
+                                            div_data += '<div class="filtermenu level-three-items '+data.href.replace(/'/g, '').toLowerCase() +' '+data1.href+' '+hideClass+'"><a href="' + data.href + '/' + data1.href + '+' + data2.href + '">' + data2.name_en + '</a></div>';
+
+                                        });
+                                    });
+                                    $(div_data).appendTo(insDiv);
+                                    if(parent == null && child == null){
+                                        $('.filtermenu:not(.level-one-items)').remove();
+                                    }else if(parent !== null && child == null){
+                                        $('.filtermenu:not(.level-two-items.'+parent+')').remove();
+                                        $('.level-one-items').remove();
+                                    }else if(parent !== null && child !== null){
+                                        $('.filtermenu:not(.'+parent+'.'+child+')').remove();
+                                    }
+
+                                });
+
+                        }
+                );
+                return false;
+            });
+        }
+        buildFilter(null,null,0);
+    </script>
+<style type="text/css">
+    .no-view{
+        display:none;
+    }
+</style>
+
+
+</head>
+<body>
+<div class="filtered top-level"></div>
+<div class="filtered second-level"></div>
+<div class="filtered third-level"></div>
+</body>
+</html>

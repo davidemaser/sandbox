@@ -1,0 +1,32 @@
+#paginator {
+  display: flex; }
+  #paginator ul, #paginator ol, #paginator dl {
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    #paginator ul li, #paginator ol li, #paginator dl li {
+      padding: 10px;
+      margin: 5px;
+      float: left;
+      position: relative; }
+      #paginator ul li a, #paginator ol li a, #paginator dl li a {
+        text-decoration: none;
+        color: inherit; }
+      #paginator ul li:hover, #paginator ol li:hover, #paginator dl li:hover {
+        background: #ccc; }
+  #paginator p {
+    padding: 10px;
+    margin: 5px;
+    float: left;
+    position: relative; }
+    #paginator p span {
+      font-size: 10px; }
+    #paginator p:hover {
+      background: #ccc; }
+
+.nav {
+  float: left; }
+
+/*# sourceMappingURL=global.css.map */

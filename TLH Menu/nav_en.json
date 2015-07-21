@@ -1,0 +1,363 @@
+{
+  "navitems": [
+    {
+      "name": "Men's","href": "/collections/mens","level1": [
+        {
+          "name": "Jackets and vests","href": "jackets","level2": [
+          {"name": "Insulated","href": "#"},
+          {"name": "One-piece Suits","href": "#"},
+          {"name": "Waterproof-Breathable Shells","href": "#"},
+          {"name": "Softshells &amp; Windbreakers","href": "#"},
+          {"name": "Ready to Wear","href": "#"},
+          {"name": "Vests","href": "#"}
+          ]
+        },
+        {
+          "name": "Tops Sweaters & Dress Shirts","href": "tops","level2": [
+          {"name": "Merino Wool","href": "#"},
+          {"name": "Polos","href": "#"},
+          {"name": "Fleece","href": "#"},
+          {"name": "Dress Shirts","href": "#"},
+          {"name": "Performance","href": "#"},
+          {"name": "Hooded Sweatshirts","href": "#"},
+          {"name": "Synthetics","href": "#"},
+          {"name": "T-Shirts","href": "#"}
+          ]
+        },
+      {
+        "name": "Pants &amp; more","href": "#","level2": [
+
+          {"name": "Capris","href": "#"},
+          {"name": "Insulated Pants","href": "#"},
+          {"name": "Shorts","href": "#"},
+          {"name": "Leggings &amp; Bike Shorts","href": "#"},
+          {"name": "Light &amp; Athletic Pants","href": "#"},
+          {"name": "Waterproof Pants","href": "#"},
+          {"name": "Ready to Wear Pants","href": "#"},
+          {"name": "Softshell &amp; Windbreaker Pants","href": "#"}
+        ]
+      },
+      {
+          "name": "Accessories","href": "#","level2": [
+            {"name": "Hats &amp; Tuques","href": "#"},
+            {"name": "Sunglasses","href": "#"},
+            {"name": "Scarves &amp; Neck Warmers","href": "#"},
+            {"name": "Gloves","href": "#"},
+            {"name": "Mitts","href": "#"},
+            {"name": "Arm Warmers","href": "#"},
+            {"name": "Ski Goggles","href": "#"},
+            {"name": "Gaiters","href": "#"},
+            {"name": "Belts","href": "#"},
+            {"name": "Caps &amp; Sun Hats","href": "#"}
+          ]
+        },
+      {
+        "name": "Socks","href": "#","level2": [
+            {"name": "Ski &amp; Snowboard","href": "#"},
+            {"name": "Expedition","href": "#"},
+            {"name": "Running","href": "#"},
+            {"name": "Multisports","href": "#"},
+            {"name": "Hiking","href": "#"},
+            {"name": "Liners","href": "#"},
+            {"name": "Ready to Wear","href": "#"}
+          ]
+        },{
+        "name": "Base Layers &amp; Underwear","href": "#","level2": [
+            {"name": "Tops","href": "#"},
+            {"name": "Bottoms","href": "#"}
+          ]
+
+
+      }
+      ]
+    },
+    {
+      "name": "Women's","href": "/collections/womens","level1": [
+      {
+        "name": "Jackets and vests","href": "jackets","level2": [
+        {"name": "Insulated","href": "#"},
+        {"name": "One-piece Suits","href": "#"},
+        {"name": "Waterproof-Breathable Shells","href": "#"},
+        {"name": "Softshells &amp; Windbreakers","href": "#"},
+        {"name": "Ready to Wear","href": "#"},
+        {"name": "Vests","href": "#"}
+      ]
+      },
+      {
+        "name": "Tops Sweaters & Dress Shirts","href": "tops","level2": [
+        {"name": "Merino Wool","href": "#"},
+        {"name": "Polos","href": "#"},
+        {"name": "Fleece","href": "#"},
+        {"name": "Dress Shirts","href": "#"},
+        {"name": "Performance","href": "#"},
+        {"name": "Hooded Sweatshirts","href": "#"},
+        {"name": "Synthetics","href": "#"},
+        {"name": "T-Shirts","href": "#"}
+      ]
+      },
+      {
+        "name": "Pants &amp; more","href": "#","level2": [
+
+        {"name": "Capris","href": "#"},
+        {"name": "Insulated Pants","href": "#"},
+        {"name": "Shorts","href": "#"},
+        {"name": "Leggings &amp; Bike Shorts","href": "#"},
+        {"name": "Light &amp; Athletic Pants","href": "#"},
+        {"name": "Waterproof Pants","href": "#"},
+        {"name": "Ready to Wear Pants","href": "#"},
+        {"name": "Softshell &amp; Windbreaker Pants","href": "#"}
+      ]
+      },
+      {
+        "name": "Accessories","href": "#","level2": [
+        {"name": "Hats &amp; Tuques","href": "#"},
+        {"name": "Sunglasses","href": "#"},
+        {"name": "Scarves &amp; Neck Warmers","href": "#"},
+        {"name": "Gloves","href": "#"},
+        {"name": "Mitts","href": "#"},
+        {"name": "Arm Warmers","href": "#"},
+        {"name": "Ski Goggles","href": "#"},
+        {"name": "Gaiters","href": "#"},
+        {"name": "Belts","href": "#"},
+        {"name": "Caps &amp; Sun Hats","href": "#"}
+      ]
+      },
+      {
+        "name": "Socks","href": "#","level2": [
+        {"name": "Ski &amp; Snowboard","href": "#"},
+        {"name": "Expedition","href": "#"},
+        {"name": "Running","href": "#"},
+        {"name": "Multisports","href": "#"},
+        {"name": "Hiking","href": "#"},
+        {"name": "Liners","href": "#"},
+        {"name": "Ready to Wear","href": "#"}
+      ]
+      },{
+        "name": "Base Layers &amp; Underwear","href": "#","level2": [
+          {"name": "Tops","href": "#"},
+          {"name": "Bottoms","href": "#"}
+        ]
+
+
+      }
+    ]
+    },{
+      "name": "Youth","href": "#","level1": [
+        {
+          "name": "Infant &amp; Toddlers Boys (0 to 4 yrs old)","href": "#","level2": [
+          {"name": "Jackets &amp; Vests", "href": "#"},
+          {"name": "Pants &amp; More", "href": "#"},
+          {"name": "One-Piece Suits", "href": "#"},
+          {"name": "Tops, Sweaters and Dress Shirts", "href": "#"},
+          {"name": "Footwear", "href": "#"},
+          {"name": "Underwear &amp; Baselayers", "href": "#"},
+          {"name": "Accessories", "href": "#"}
+        ]
+        },
+        {
+          "name": "Infant &amp; Toddlers Girls (0 to 4 yrs old)","href": "#","level2": [
+          {"name": "Pants &amp; More", "href": "#"},
+          {"name": "One-Piece Suits", "href": "#"},
+          {"name": "Tops, Sweaters and Dress Shirts", "href": "#"},
+          {"name": "Footwear", "href": "#"},
+          {"name": "Underwear &amp; Baselayers", "href": "#"},
+          {"name": "Accessories", "href": "#"},
+          {"name": "Jackets &amp; Vests", "href": "#"}
+        ]
+        },
+        {
+          "name": "Boys","href": "#","level2": [
+          {"name": "Jackets &amp; Vests", "href": "#"},
+          {"name": "Pants &amp; More", "href": "#"},
+          {"name": "Tops, Sweaters and Dress Shirts", "href": "#"},
+          {"name": "Footwear", "href": "#"},
+          {"name": "Underwear &amp; Baselayers", "href": "#"},
+          {"name": "Accessories", "href": "#"}
+        ]
+        },
+        {
+          "name": "Girls","href": "#","level2": [
+          {"name": "Jackets &amp; Vests", "href": "#"},
+          {"name": "Pants &amp; More", "href": "#"},
+          {"name": "Tops, Sweaters and Dress Shirts", "href": "#"},
+          {"name": "Footwear", "href": "#"},
+          {"name": "Underwear &amp; Baselayers", "href": "#"},
+          {"name": "Accessories", "href": "#"}
+        ]
+        },
+        {
+          "name": "Equipment","href": "#","level2": [
+          {"name": "Backpacks", "href": "#"}
+        ]
+        }
+        ]
+        }
+    ,
+    {
+      "name": "Footwear","href": "#","level1": [
+      {
+        "name": "Men's Footwear","href": "#","level2": [
+        {"name": "Insulated Boots","href": "#"},
+        {"name": "Insulated shoes","href": "#"},
+        {"name": "Sandals &amp; Water Shoes","href": "#"},
+        {"name": "Slippers &amp; Mules","href": "#"},
+        {"name": "Running Shoes","href": "#"},
+        {"name": "Waterproof Boots","href": "#"},
+        {"name": "Hiking Shoes","href": "#"},
+        {"name": "Hiking Boots","href": "#"},
+        {"name": "Casual","href": "#"}
+      ]
+      },
+      {
+        "name": "Kids Footwear","href": "#","level2": [
+        {"name": "Girls","href": "#"},
+        {"name": "Boys","href": "#"},
+        {"name": "Boys Infant &amp; Toddlers (0 to 4 yrs old)","href": "#"},
+        {"name": "Girls Infant &amp; Toddlers (0 to 4 yrs old)","href": "#"}
+      ]
+      },
+      {
+        "name": "Women's Footwear","href": "#","level2": [
+        {"name": "Insulated Boots","href": "#"},
+        {"name": "Insulated shoes","href": "#"},
+        {"name": "Sandals &amp; Water Shoes","href": "#"},
+        {"name": "Slippers &amp; Mules","href": "#"},
+        {"name": "Running Shoes","href": "#"},
+        {"name": "Hiking Shoes","href": "#"},
+        {"name": "Hiking Boots","href": "#"},
+        {"name": "Casual","href": "#" },
+        {"name": "Waterproof Boots","href": "#"}
+      ]
+      },
+      {
+        "name": "Care &amp; Accessories","href": "#","level2": [
+        {"name": "Insoles","href": "#"},
+        {"name": "Waterproofing","href": "#"},
+        {"name": "Leather Treatment","href": "#"},
+        {"name": "Laces","href": "#"},
+        {"name": "Crampons","href": "#"}
+      ]
+      }
+      ]
+      },
+    {
+      "name": "Gear & Equipment","href": "#","level1": [
+      {
+        "name": "Snowshoes","href": "#","level2": [
+        {"name": "Women's Snowshoes", "href": "#"},
+        {"name": "Men's Snowshoes", "href": "#"},
+        {"name": "Snowshoes Accessories", "href": "#"}
+      ]
+      },
+      {
+        "name": "Glasses","href": "#","level2": [
+        {"name": "Sunglasses", "href": "#"},
+        {"name": "Ski Goggles", "href": "#"}
+      ]
+      },
+      {
+        "name": "Sleeping Bags &amp; Mattresses","href": "#","level2": [
+        {"name": "Men's Sleeping Bags (-20°C to -40°C)", "href": "#"},
+        {"name": "Women's Sleeping Bags (-20°C to -40°C)", "href": "#"},
+        {"name": "Men's Sleeping Bags (0°C and +)", "href": "#"},
+        {"name": "Liners", "href": "#"},
+        {"name": "Women's Sleeping Bags (0°C and +)", "href": "#"},
+        {"name": "Men's Sleeping Bags (0°C to -20°C)", "href": "#"},
+        {"name": "Women's Sleeping Bags (0°C to -20°C)", "href": "#"},
+        {"name": "Mattresses", "href": "#"},
+        {"name": "Pillows", "href": "#"}
+      ]
+      },
+      {
+        "name": "Travel","href": "#","level2": [
+        {"name": "Travel Accessories", "href": "#"}
+      ]
+      },
+      {
+        "name": "Backpacks &amp; Travel Bags","href": "#","level2": [
+        {"name": "Men's Daypacks", "href": "#"},
+        {"name": "Women's Daypacks", "href": "#"},
+        {"name": "Compression Packs", "href": "#"},
+        {"name": "Child Carrier", "href": "#"},
+        {"name": "Men's Hiking Packs", "href": "#"},
+        {"name": "Women's Hiking Packs", "href": "#"},
+        {"name": "Duffel Bags", "href": "#"},
+        {"name": "Travel Packs &amp; Bags", "href": "#"},
+        {"name": "Urban &amp; Messenger Bags", "href": "#"},
+        {"name": "Hydration Packs", "href": "#"},
+        {"name": "Accessories", "href": "#"},
+        {"name": "Raincovers", "href": "#"},
+        {"name": "Waterproof Bags", "href": "#"},
+        {"name": "Waistpacks", "href": "#"},
+        {"name": "Youth Backpacks", "href": "#"}
+      ]
+      },
+      {
+        "name": "Camp Kitchen","href": "#","level2": [
+        {"name": "Stoves &amp; Fuel", "href": "#"},
+        {"name": "Pots &amp; Dishes", "href": "#"},
+        {"name": "Water Treatment", "href": "#"},
+        {"name": "Bottles", "href": "#"},
+        {"name": "Food", "href": "#"},
+        {"name": "Others", "href": "#"}
+      ]
+      },
+      {
+        "name": "Lighting","href": "#","level2": [
+        {"name": "Headlamps", "href": "#"},
+        {"name": "Lanterns", "href": "#"},
+        {"name": "Flashlights", "href": "#"},
+        {"name": "Cycling Lights", "href": "#"}
+      ]
+      },
+      {
+        "name": "Watches","href": "#","level2": [
+        {"name": "GPS", "href": "#"},
+        {"name": "Hiking", "href": "#"},
+        {"name": "Training", "href": "#"},
+        {"name": "Women's", "href": "#"},
+        {"name": "Men's", "href": "#"},
+        {"name": "Accessories", "href": "#"}
+      ]
+      },
+      {
+        "name": "Accessories","href": "#","level2": [
+        {"name": "Gear Care", "href": "#"},
+        {"name": "Compasses", "href": "#"},
+        {"name": "Miscellaneous", "href": "#"}
+        ]
+      },{
+        "name": "Walking Poles", "href": "#","level2": [
+        {"name": "Foldable 2 sections", "href": "#"},
+        {"name": "Foldable 3 sections", "href": "#"},
+        {"name": "Hiking", "href": "#"},
+        {"name": "Winter", "href": "#"},
+        {"name": "Ultralight", "href": "#"},
+        {"name": "Ultracompact", "href": "#"},
+        {"name": "Accessories", "href": "#"}
+      ]
+      },
+      {
+        "name": "Knives &amp; Tools","href": "#","level2": [
+        {"name": "Single Blade", "href": "#"},
+        {"name": "Multi-Tools", "href": "#"},
+        {"name": "Accessories", "href": "#"}
+      ]
+      },
+      {
+        "name": "Tents","href": "#","level2": [
+        {"name": "4-season Tents", "href": "#"},
+        {"name": "3-season Tents", "href": "#"},
+        {"name": "Tarps", "href": "#"}
+      ]
+      },
+      {
+        "name": "Camcorders","href": "#","level2": [
+        {"name": "Camcorders", "href": "#"},
+        {"name": "Camcorder Accessories", "href": "#"}
+      ]
+      }
+      ]
+    }
+  ]
+}

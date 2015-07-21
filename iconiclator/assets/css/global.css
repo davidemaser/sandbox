@@ -1,0 +1,57 @@
+#global-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clear: right;
+    background-color: #ccc;
+}
+
+header {
+    position: absolute;
+    width: 85%;
+    left: 15%;
+    height: 8%;
+    background-color: #ddd;
+}
+
+section#left {
+    width: 15%;
+    position: absolute;
+    height: 80%;
+    background-color: #fff;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+}
+
+section#right {
+    position: absolute;
+    left: 15%;
+    width: 85%;
+    height: 72%;
+    top: 80px;
+    background-color: #ececec;
+    overflow: hidden;
+    border-top: 1px solid #ddd;
+}
+
+footer#sub {
+    position: absolute;
+    top: 80%;
+    height: 10%;
+    background-color: #2a2a2a;
+    width: 100%;
+}
+
+footer#bottom {
+    height: 15%;
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+}
+
+nav#top {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function(){
+        var n = 0;
+        var buildBlock = '<div></div>';
+        var ajx = $.ajax({
+            url: 'assets/ajax/data3.json',
+            dataType: 'json',
+            cache: false,
+            async: true,
+            statusCode: {
+                404: function() {
+                    $('body').prepend('<div class="ajax-404">The file this script is trying to connect to doesn\'t exist</div>');
+                }
+            }
+        }).done(function(data) {
+            var items = [];
+            nL = data.entry.length;
+            console.log(nL);
+            for (var i in data.entry) {
+                items.push(data.entry[i]);
+            }
+            while (n < nL) {
+                var block = $(buildBlock).attr('id', 'block' + (n + 1)).html(items[n].label+'<br />'+items[n].category);
+                $('body').append(block);
+                n++;
+            }
+        });
+    });
+</script>
+</body>
+</html>

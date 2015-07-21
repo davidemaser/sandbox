@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <link href="assets/css/global.css" rel="stylesheet">
+    <script src="assets/js/paginator_go.js"></script>
+</head>
+<body>
+<div id="demo"></div>
+</body>
+<script>
+     $(this).paginator({
+         total:24,
+         visible:5,
+         start:1,
+         getURI:false,
+         uriOffset:'offset',
+         speed:200,
+         parent:'#demo',
+         margin:5,
+         padding:5,
+         display:'horizontal',
+         link:'paginator.html',
+         offset:20,
+         ellipsis:true,
+         bootstrap:true,
+         scope:'both'
+});
+</script>
+</html>

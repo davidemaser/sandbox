@@ -1,0 +1,39 @@
+#paginator{
+  display: flex;//change to inline block if navigator does not support flex
+  ul,ol,dl {
+    display: block;
+    float:left;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    li {
+      padding : 10px;
+      margin:5px;
+      float:left;
+      position: relative;
+      a {
+        text-decoration: none;
+        color:inherit;
+      }
+      &:hover {
+        background: #ccc;
+      }
+    }
+  }
+  p {
+    padding : 10px;
+    margin:5px;
+    float:left;
+    position: relative;
+    span {
+      font-size: 10px;
+    }
+    &:hover {
+      background: #ccc;
+    }
+  }
+}
+.nav {
+  float:left;
+}
+

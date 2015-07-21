@@ -1,0 +1,53 @@
+{"element":[
+  {
+    "tag":"section",
+    "id":"main",
+    "class":"",
+    "count":1,
+    "parent":"",
+    "parentChild":0
+  },
+  {
+    "tag":"div",
+    "id":"content",
+    "class":"flex",
+    "count":2,
+    "parent":"main",
+    "parentChild":0
+  },
+  {
+    "tag":"nav",
+    "id":"sec",
+    "class":"wire",
+    "count":1,
+    "parent":"content",
+    "parentChild":2
+  },
+  {
+    "tag":"footer",
+    "id":"",
+    "class":"page-footer",
+    "count":3,
+    "parent":"",
+    "parentChild":0
+  },
+  {
+    "tag":"div",
+    "id":"",
+    "class":"cog",
+    "count":3,
+    "parent":"sec",
+    "parentChild":1
+  }
+],
+"jsFiles":[
+  {"lib":"modernizr.js"},
+  {"lib":"jquery.js"},
+  {"lib":"bootstrap.js"}
+],
+"cssFiles":[
+  {"lib":"modernizr.css"},
+  {"lib":"jquery.css"},
+  {"lib":"bootstrap.css"}
+  ]
+}
